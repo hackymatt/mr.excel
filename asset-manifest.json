@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/mr.excel.2.0/static/css/main.d7da34c1.css",
-    "main.js": "/mr.excel.2.0/static/js/main.b9f042f9.js",
-    "static/media/video.mp4": "/mr.excel.2.0/static/media/video.7d1ea6a94986d5c2a068.mp4",
-    "static/media/about.svg": "/mr.excel.2.0/static/media/about.3b925e808596595575f9f0d2e6601551.svg",
-    "static/media/logo.png": "/mr.excel.2.0/static/media/logo.d8ecf4b7b2917ba78dd5.png",
-    "static/media/offer.svg": "/mr.excel.2.0/static/media/offer.aeb74aa2b0c8616acd8c79caa97dcf96.svg",
-    "index.html": "/mr.excel.2.0/index.html",
-    "main.d7da34c1.css.map": "/mr.excel.2.0/static/css/main.d7da34c1.css.map",
-    "main.b9f042f9.js.map": "/mr.excel.2.0/static/js/main.b9f042f9.js.map"
+    "main.css": "/mr.excel/static/css/main.d7da34c1.css",
+    "main.js": "/mr.excel/static/js/main.ae50a7cb.js",
+    "static/media/video.mp4": "/mr.excel/static/media/video.7d1ea6a94986d5c2a068.mp4",
+    "static/media/about.svg": "/mr.excel/static/media/about.3b925e808596595575f9f0d2e6601551.svg",
+    "static/media/logo.png": "/mr.excel/static/media/logo.d8ecf4b7b2917ba78dd5.png",
+    "static/media/offer.svg": "/mr.excel/static/media/offer.aeb74aa2b0c8616acd8c79caa97dcf96.svg",
+    "index.html": "/mr.excel/index.html",
+    "main.d7da34c1.css.map": "/mr.excel/static/css/main.d7da34c1.css.map",
+    "main.ae50a7cb.js.map": "/mr.excel/static/js/main.ae50a7cb.js.map"
   },
   "entrypoints": [
     "static/css/main.d7da34c1.css",
-    "static/js/main.b9f042f9.js"
+    "static/js/main.ae50a7cb.js"
   ]
 }
