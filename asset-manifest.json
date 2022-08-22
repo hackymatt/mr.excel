@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/mrexcel/static/css/main.d7da34c1.css",
+    "main.js": "/mrexcel/static/js/main.44efda55.js",
+    "static/media/video.mp4": "/mrexcel/static/media/video.7d1ea6a94986d5c2a068.mp4",
+    "static/media/about.svg": "/mrexcel/static/media/about.3b925e808596595575f9f0d2e6601551.svg",
+    "static/media/logo.png": "/mrexcel/static/media/logo.d8ecf4b7b2917ba78dd5.png",
+    "static/media/offer.svg": "/mrexcel/static/media/offer.aeb74aa2b0c8616acd8c79caa97dcf96.svg",
+    "index.html": "/mrexcel/index.html",
+    "main.d7da34c1.css.map": "/mrexcel/static/css/main.d7da34c1.css.map",
+    "main.44efda55.js.map": "/mrexcel/static/js/main.44efda55.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7da34c1.css",
+    "static/js/main.44efda55.js"
+  ]
+}
