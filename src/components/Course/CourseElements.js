@@ -1,19 +1,19 @@
 import styled from 'styled-components'
 
 export const CourseContainer = styled.div`
-    height: 940px;
+    height: 800px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #010606;
+    background: #000;
 
     @media screen and (max-width: 768px) {
-        height: 1180px;
+        height: 1370px;
     }
     
     @media screen and (max-width: 480px) {
-        height: 1300px;
+        height: 1450px;
     }
 `;
 
@@ -24,7 +24,6 @@ export const CourseWrapper = styled.div`
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     grid-gap: 16px;
-    // padding 0 50px;
 
     @media screen and (max-width: 1080px) {
         grid-template-columns: 1fr 1fr;
@@ -81,6 +80,8 @@ export const CourseDescription = styled.h1`
     font-size: 0.9rem;
     margin-bottom: 10px;
     min-height: 50px;
+    text-align: justify;
+    font-weight: 500;
 `
 
 export const CoursePrice = styled.h1`
