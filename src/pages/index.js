@@ -4,6 +4,8 @@ import { about, offer, course, contact } from '../components/InfoSection/data';
 import Main from '../components/Main';
 import Navbar from '../components/Navbar';
 import Sidebar from '../components/Sidebar';
+import Course from '../components/Course';
+
 
 const Home = () => {
 
@@ -20,7 +22,7 @@ const Home = () => {
       <Main />
       <InfoSection {...about} />
       <InfoSection {...offer} />
-      <InfoSection {...course} />
+      <Course />
       <InfoSection {...contact} />
     </>
   )
