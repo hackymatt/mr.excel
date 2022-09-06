@@ -6,6 +6,8 @@ import Navbar from '../components/Navbar';
 import Sidebar from '../components/Sidebar';
 import Course from '../components/Course';
 import Contact from '../components/Contact';
+import Footer from '../components/Footer';
+
 
 const Home = () => {
 
@@ -24,6 +26,7 @@ const Home = () => {
       <InfoSection {...offer} />
       <Course />
       <Contact />
+      <Footer />
     </>
   )
 }
