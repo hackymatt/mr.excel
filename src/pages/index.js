@@ -1,11 +1,11 @@
 import React, {useState} from 'react'
 import InfoSection from '../components/InfoSection';
-import { about, offer, course, contact } from '../components/InfoSection/data';
+import { about, offer } from '../components/InfoSection/data';
 import Main from '../components/Main';
 import Navbar from '../components/Navbar';
 import Sidebar from '../components/Sidebar';
 import Course from '../components/Course';
-
+import Contact from '../components/Contact';
 
 const Home = () => {
 
@@ -23,7 +23,7 @@ const Home = () => {
       <InfoSection {...about} />
       <InfoSection {...offer} />
       <Course />
-      <InfoSection {...contact} />
+      <Contact />
     </>
   )
 }

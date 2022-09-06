@@ -33,19 +33,3 @@ export const offer = {
     img: offerLogo,
     alt: "about"
 }
-
-export const contact = {
-    id: "contact",
-    lightBackground: true,
-    lightTextTopLine: true,
-    lightTextHeadline: false,
-    lightTextDescription: false,
-    topline: "MR. EXCEL",
-    headline: "Kontakt",
-    description: "Znajdziesz tutaj szkolenia, konsultacje indywidualne lub grupowe, stacjonarne lub zdalne z wszystkich poziomów Excel'a oraz VBA. " + 
-                 "Uzyskasz pomoc przy projektach, zadaniach oraz pracy z Excelem oraz VBA. " + 
-                 "Zlecisz stworzenie dodatków usprawniających pracę oraz oprogramowania automatyzującego pracę.",   
-    imgStart: false,
-    img: offerLogo,
-    alt: "about"
-}
