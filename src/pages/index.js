@@ -1,9 +1,13 @@
 import React, {useState} from 'react'
 import InfoSection from '../components/InfoSection';
-import { about, offer, course, contact } from '../components/InfoSection/data';
+import { about, offer } from '../components/InfoSection/data';
 import Main from '../components/Main';
 import Navbar from '../components/Navbar';
 import Sidebar from '../components/Sidebar';
+import Course from '../components/Course';
+import Contact from '../components/Contact';
+import Footer from '../components/Footer';
+
 
 const Home = () => {
 
@@ -20,8 +24,9 @@ const Home = () => {
       <Main />
       <InfoSection {...about} />
       <InfoSection {...offer} />
-      <InfoSection {...course} />
-      <InfoSection {...contact} />
+      <Course />
+      <Contact />
+      <Footer />
     </>
   )
 }

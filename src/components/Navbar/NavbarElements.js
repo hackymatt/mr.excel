@@ -3,7 +3,7 @@ import { Link as LinkRouter } from 'react-router-dom'
 import { Link as LinkScroll } from 'react-scroll'
 
 export const Nav = styled.nav`
-    background: #000;
+    background: ${({scrollNav}) => (scrollNav ? '#000' : 'transparent')};
     height: 80px;
     display: flex;
     justify-content: center;
@@ -55,7 +55,7 @@ export const Hamburger = styled.div`
         transform: translate(-100%, 60%);
         font-size: 1.8rem;
         cursor: pointer;
-        color: rgb(2, 116, 56);
+        color: #fff;
     }
 `;
 
@@ -85,12 +85,9 @@ export const NavLinks = styled(LinkScroll)`
     height: 100%;
     margin-right: 50px;
     margin-left: 50px;
-    // font-weight: bold;
-
+    
     &:hover {
-        // color: rgb(2, 116, 56);
-        border-bottom: 1px solid rgb(2, 116, 56);
-        transition: 0.2s ease-in-out;
+        border-bottom: 3px solid rgb(2, 116, 56);
     }
 `;
 

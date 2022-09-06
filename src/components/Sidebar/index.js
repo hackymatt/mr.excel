@@ -10,10 +10,34 @@ const Sidebar = ({ isOpen, toogle }) => {
             </Icon>
             <SidebarWrapper>
                 <SidebarMenu>
-                    <SidebarLink to="about" onClick={toogle}>O mnie</SidebarLink>   
-                    <SidebarLink to="offer" onClick={toogle}>Oferta</SidebarLink> 
-                    <SidebarLink to="course" onClick={toogle}>Kursy</SidebarLink> 
-                    <SidebarLink to="contact" onClick={toogle}>Kontakt</SidebarLink> 
+                    <SidebarLink 
+                        to="about"
+                        smooth={true}
+                        duration={500}
+                        spy={true}
+                        exact={true} 
+                        onClick={toogle}>O mnie</SidebarLink>   
+                    <SidebarLink 
+                        to="offer"
+                        smooth={true}
+                        duration={500}
+                        spy={true}
+                        exact={true} 
+                        onClick={toogle}>Oferta</SidebarLink> 
+                    <SidebarLink 
+                        to="course"
+                        smooth={true}
+                        duration={500}
+                        spy={true}
+                        exact={true} 
+                        onClick={toogle}>Kursy</SidebarLink> 
+                    <SidebarLink 
+                        to="contact"
+                        smooth={true}
+                        duration={500}
+                        spy={true}
+                        exact={true} 
+                        onClick={toogle}>Kontakt</SidebarLink> 
                 </SidebarMenu>
             </SidebarWrapper>
         </SidebarContainer>

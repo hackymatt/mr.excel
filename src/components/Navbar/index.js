@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import { FaBars} from 'react-icons/fa'
 import {Nav, 
         NavbarContainer, 
@@ -10,12 +10,33 @@ import {Nav,
         Logo} from './NavbarElements'
 import LogoFile from '../../images/logo.png'
 
+
 const Navbar = ({toogle}) => {
+
+    const [scrollNav, setScrollNav] = useState(false)
+
+    const changeNav = () => {
+        if(window.scrollY >=80) {
+            setScrollNav(true)
+        } else {
+            setScrollNav(false)
+        }
+    }
+
+    useEffect(() => {
+        window.addEventListener('scroll', changeNav)
+    }, [])
+
   return (
     <>
-        <Nav>
+        <Nav scrollNav={scrollNav}>
             <NavbarContainer>
-                <NavLogo to="home">
+                <NavLogo 
+                        to="home" 
+                        smooth={true}
+                        duration={500}
+                        spy={true}
+                        exact={true}>
                     <Logo src={LogoFile} />
                 </NavLogo>
                 <Hamburger onClick={toogle}>
@@ -23,16 +44,37 @@ const Navbar = ({toogle}) => {
                 </Hamburger>
                 <NavMenu>
                     <NavItem>
-                        <NavLinks to="about">O mnie</NavLinks>
+                        <NavLinks 
+                            to="about"
+                            smooth={true}
+                            duration={500}
+                            spy={true}
+                            exact={true}
+                            activeClass="active">O mnie</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to="offer">Oferta</NavLinks>
+                        <NavLinks 
+                            to="offer"
+                            smooth={true}
+                            duration={500}
+                            spy={true}
+                            exact={true}>Oferta</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to="course">Kursy</NavLinks>
+                        <NavLinks 
+                            to="course"
+                            smooth={true}
+                            duration={500}
+                            spy={true}
+                            exact={true}>Kursy</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to="contact">Kontakt</NavLinks>
+                        <NavLinks 
+                            to="contact"
+                            smooth={true}
+                            duration={500}
+                            spy={true}
+                            exact={true}>Kontakt</NavLinks>
                     </NavItem>
                 </NavMenu>
             </NavbarContainer>

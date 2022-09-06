@@ -3,10 +3,10 @@ import offerLogo from '../../images/offer.svg'
 
 export const about = {
     id: "about",
-    lightBackground: true,
+    lightBackground: false,
     lightTextTopLine: true,
-    lightTextHeadline: false,
-    lightTextDescription: false,
+    lightTextHeadline: true,
+    lightTextDescription: true,
     topline: "MR. EXCEL",
     headline: "O mnie",
     description: "Cześć! Mam na imię Mateusz. Od 6 lat jestem związany profesjonalnie z Excelem. " +
@@ -20,44 +20,12 @@ export const about = {
 
 export const offer = {
     id: "offer",
-    lightBackground: false,
-    lightTextTopLine: true,
-    lightTextHeadline: true,
-    lightTextDescription: true,
-    topline: "MR. EXCEL",
-    headline: "Oferta",
-    description: "Znajdziesz tutaj szkolenia, konsultacje indywidualne lub grupowe, stacjonarne lub zdalne z wszystkich poziomów Excel'a oraz VBA. " + 
-                 "Uzyskasz pomoc przy projektach, zadaniach oraz pracy z Excelem oraz VBA. " + 
-                 "Zlecisz stworzenie dodatków usprawniających pracę oraz oprogramowania automatyzującego pracę.",   
-    imgStart: false,
-    img: offerLogo,
-    alt: "about"
-}
-
-export const course = {
-    id: "course",
     lightBackground: true,
     lightTextTopLine: true,
     lightTextHeadline: false,
     lightTextDescription: false,
     topline: "MR. EXCEL",
-    headline: "Kursy",
-    description: "Znajdziesz tutaj szkolenia, konsultacje indywidualne lub grupowe, stacjonarne lub zdalne z wszystkich poziomów Excel'a oraz VBA. " + 
-                 "Uzyskasz pomoc przy projektach, zadaniach oraz pracy z Excelem oraz VBA. " + 
-                 "Zlecisz stworzenie dodatków usprawniających pracę oraz oprogramowania automatyzującego pracę.",   
-    imgStart: false,
-    img: offerLogo,
-    alt: "about"
-}
-
-export const contact = {
-    id: "contact",
-    lightBackground: false,
-    lightTextTopLine: true,
-    lightTextHeadline: true,
-    lightTextDescription: true,
-    topline: "MR. EXCEL",
-    headline: "Kontakt",
+    headline: "Oferta",
     description: "Znajdziesz tutaj szkolenia, konsultacje indywidualne lub grupowe, stacjonarne lub zdalne z wszystkich poziomów Excel'a oraz VBA. " + 
                  "Uzyskasz pomoc przy projektach, zadaniach oraz pracy z Excelem oraz VBA. " + 
                  "Zlecisz stworzenie dodatków usprawniających pracę oraz oprogramowania automatyzującego pracę.",   

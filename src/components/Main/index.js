@@ -23,7 +23,16 @@ const Main = () => {
             Rozpocznij swoją drogę w kierunku odkrycia potencjału Excela.
         </MainP>
         <MainBtnWrapper>
-          <Button to="about" onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark="true">
+          <Button 
+            to="about" 
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact={true}
+            onMouseEnter={onHover} 
+            onMouseLeave={onHover} 
+            primary="true" 
+            dark="true">
             Sprawdź {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
         </MainBtnWrapper>
