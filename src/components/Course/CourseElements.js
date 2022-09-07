@@ -8,6 +8,10 @@ export const CourseContainer = styled.div`
     align-items: center;
     background: #000;
 
+    @media screen and (max-width: 1080px) {
+        height: 1100px;
+    }
+
     @media screen and (max-width: 768px) {
         height: 1370px;
     }
@@ -110,8 +114,17 @@ export const Heading = styled.h1`
     font-size: 48px;
     line-height: 1.1;
     font-weight: 600;
+    align: left;
 
     @media screen and (max-width:480px){
         font-size: 32px; 
     }
+`;
+
+export const InfoWrapper = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 `;
