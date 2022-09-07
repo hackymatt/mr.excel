@@ -8,7 +8,8 @@ import {
   CoursePrice,
   CourseImage,
   TopLine,
-  Heading
+  Heading,
+  InfoWrapper
 } from './CourseElements'
 import podstawowy from '../../images/podstawowy.jpg'
 import średniozaawansowany from '../../images/średniozaawansowany.jpg'
@@ -18,8 +19,10 @@ const Course = () => {
   return (
     <>
       <CourseContainer id="course">
-        <TopLine>MR. EXCEL</TopLine>
-        <Heading>Kursy</Heading>
+      <InfoWrapper>
+          <TopLine>MR. EXCEL</TopLine>
+          <Heading>Kursy</Heading>
+        </InfoWrapper>
         <CourseWrapper>
             <CourseCard href="https://www.udemy.com/course/excel-podstawowy/learn/?referralCode=839AD8A6AFA31478A2D1" target="_blank">                
                 <CourseImage src={podstawowy} />
